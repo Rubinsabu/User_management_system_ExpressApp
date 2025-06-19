@@ -1,11 +1,19 @@
-Created a Express App to manage a list of users. Used mongoDB to store data.
-It is using following routers. Used multer to upload photo.
 
-- POST ‘/register’ (Register an admin account)
-- POST ‘/login’ (Login in order to manage users )
-- POST ‘/users’ (Create a user with name, email, username and photo )
-- GET ‘/users’ (Get all users list)
-- GET ‘/users/:id’ (Get a specific user based on the id provided)
-- PUT ‘/users/:id’ (Update a specific user)
-- DELETE ‘/users/:id’ (Delete a specific user)
-  The response data should be handled in json format (use res.json()). You can only manage users (use jwt token) when you are logged in.
+# My Project  
+
+Here’s a screenshot of the app:
+
+### Admin Dashboard
+![App Screenshot](/Admin_dashboard.JPG)
+### Admin Login
+![Admin Login](/Admin_login.JPG)
+### Add User Page
+![Add User Page](/Add_User.JPG)
+### Edit User Page
+![Edit User Page](/Edit_User.JPG)
+
+
+Created a Frontend App to Manage a List of Users.
+Created a frontend application that connects to the existing Express backend for user management.
+Used React and the app communicates with the backend via API and provides a clean, functional
+user interface and styled using Tailwindcss.
